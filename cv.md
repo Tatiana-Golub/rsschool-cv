@@ -17,3 +17,12 @@ __Skype:__ Tatiana.k1989
     * English/Russian translator
 
 
+## <ins>Education</ins>
+
+* 2019-2021 Immanuel Kant Baltic Federal University (Russia)
+    * Institute for the Humanities, Master of Linguistics
+    * Specialization: Translation for International Business and Diplomaсy
+
+* 2007-2012 Blagoveschensk State Pedagogical University (Russia)
+    * Psychology and Pedagogical Faculty
+    * Specialization: Manager of an organization and English/Russian translator
