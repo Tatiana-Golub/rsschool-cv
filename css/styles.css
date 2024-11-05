@@ -1,0 +1,45 @@
+body {
+    text-align: left;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    background-color: #D1FFF3;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.title {
+    color: #156e6e;
+    font-size: 30px;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+}
+
+.header__description {
+    color: #156e6e;
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.experience {
+    margin-top: 50px;
+}
+
+.experience__item {
+    list-style: none;
+}
+
+pre {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
