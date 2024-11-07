@@ -26,20 +26,10 @@ img {
     border-radius: 50%;
 }
 
-span {
-    font-weight: bold;
-}
-
 .experience {
     margin-top: 50px;
 }
 
 .experience__item {
     list-style: none;
-}
-
-pre {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
 }
