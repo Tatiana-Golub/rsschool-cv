@@ -23,3 +23,29 @@ Frontend-разработчик с практическим опытом раз�
  
 ---
 
+## Навыки
+
+- **Языки:** JavaScript (ES6+), TypeScript, HTML5, CSS3
+- **Frontend:** React, Next.js, CSS Modules, TailwindCSS
+- **State Management:** Redux Toolkit, Context API
+- **API:** REST API, Axios, Fetch
+- **Forms:** React Hook Form, Yup
+- **Testing:** Vitest, React Testing Library
+- **Backend:** Node.js, Express.js, Supabase, PostgreSQL, MongoDB
+- **Инструменты:** Git, GitHub, Vite, Webpack, ESLint, Prettier, npm
+- **Дополнительно:** Figma, Responsive Design, Cross-browser Layout
+- **AI-инструменты:** ChatGPT, Claude
+
+## Пример кода
+
+Задача на разность массивов:
+ 
+```javascript
+function difference(arr1, arr2) {
+  const set2 = new Set(arr2);
+  return arr1.filter(x => !set2.has(x));
+}
+```
+ 
+---
+
