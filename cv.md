@@ -63,7 +63,7 @@ function difference(arr1, arr2) {
  
 **Технологии:** HTML5, CSS3, JavaScript, адаптивная вёрстка
  
-🔗 [GitHub] (https://github.com/Tatiana-Golub/christmas-shop)
+🔗 [GitHub](https://github.com/Tatiana-Golub/christmas-shop)
 
 ---
 
