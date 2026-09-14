@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
   <title>Frontend-разработчик Татьяна Голуб</title>
 </head>
 
@@ -13,61 +17,61 @@
 
     <header class="header">
       <div class="main__info">
-      <h1 class="name">Татьяна Голуб</h1>
-      <p class="role">Frontend-разработчик</p>
-      <p class="location">Калининград, Россия</p>
+        <h1 class="name">Татьяна Голуб</h1>
+        <h2 class="role">Frontend-разработчик</h2>
+        <p class="location">Калининград, Россия</p>
 
-      <nav class="nav">
-        <ul>
-          <li><a href="#about">О себе</a></li>
-          <li><a href="#skills">Навыки</a></li>
-          <li><a href="#code">Пример кода</a></li>
-          <li><a href="#projects">Проекты</a></li>
-          <li><a href="#experience">Опыт работы</a></li>
-          <li><a href="#education">Образование</a></li>
-          <li><a href="#cources">Курсы</a></li>
-          <li><a href="#languages">Языки</a></li>
-        </ul>
-      </nav>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#about">О себе</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#code">Пример кода</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#experience">Опыт работы</a></li>
+            <li><a href="#education">Образование</a></li>
+            <li><a href="#cources">Курсы</a></li>
+            <li><a href="#languages">Языки</a></li>
+          </ul>
+        </nav>
 
-      <div class="contacts">
-        <h2>Контакты</h2>
+        <div class="contacts">
+          <h2 class="contacts__title">Контакты</h2>
 
-        <ul class="contacts__list">
-          <li>
-            <span class="contacts__label">Телефон/WhatsApp:</span>
-            <a href="tel:+79841423405">+7 984 142 34 05</a>
-          </li>
+          <ul class="contacts__list">
+            <li>
+              <span class="contacts__label">Телефон/WhatsApp:</span>
+              <a href="tel:+79841423405">+7 984 142 34 05</a>
+            </li>
 
-          <li>
-            <span class="contacts__label">Telegram:</span>
-            <a href="https://t.me/TatianaGolub11">
-              @TatianaGolub11
-            </a>
-          </li>
+            <li>
+              <span class="contacts__label">Telegram:</span>
+              <a href="https://t.me/TatianaGolub11">
+                @TatianaGolub11
+              </a>
+            </li>
 
-          <li>
-            <span class="contacts__label">Email:</span>
-            <a href="mailto:tatiana.k1989@gmail.com">
-              tatiana.k1989@gmail.com
-            </a>
-          </li>
+            <li>
+              <span class="contacts__label">Email:</span>
+              <a href="mailto:tatiana.k1989@gmail.com">
+                tatiana.k1989@gmail.com
+              </a>
+            </li>
 
-          <li>
-            <span class="contacts__label">GitHub:</span>
-            <a href="https://github.com/Tatiana-Golub" target="_blank">
-              Tatiana-Golub
-            </a>
-          </li>
+            <li>
+              <span class="contacts__label">GitHub:</span>
+              <a href="https://github.com/Tatiana-Golub" target="_blank">
+                Tatiana-Golub
+              </a>
+            </li>
 
-          <li>
-            <span class="contacts__label">Discord:</span>
-            <span>Tatiana-Golub</span>
-          </li>
-        </ul>
+            <li>
+              <span class="contacts__label">Discord:</span>
+              <span>Tatiana-Golub</span>
+            </li>
+          </ul>
+        </div>
       </div>
-      </div>
-      <div class="photo"><img src="./assets/cv-photo.jpg" alt="Фото Голуб Татьяны"></div>
+      <div><img class="photo" src="./assets/cv-photo.jpg" alt="Фото Голуб Татьяны"></div>
     </header>
 
     <main>
@@ -214,15 +218,17 @@
     </main>
 
 
-  <footer class="footer">
-    <div>
-      <a href="https://github.com/Tatiana-Golub" target="_blank" rel="noopener"><img src="./assets/github-icon.svg" alt="Github icon"></a>
-    </div>
-    <div>© 2026</div>
-    <div>
-      <a href="https://rs.school/" target="_blank" rel="noopener"><img src="./assets/rss-logo.svg" alt="RS Schooll logo"></a>
-    </div>
-  </footer>
+    <footer class="footer">
+      <div>
+        <a href="https://github.com/Tatiana-Golub" target="_blank" rel="noopener"><img class="github__icon"
+            src="./assets/github-icon.svg" alt="Github icon"></a>
+      </div>
+      <div>© 2026</div>
+      <div>
+        <a href="https://rs.school/" target="_blank" rel="noopener"><img class="rss__icon" src="./assets/rss-logo.svg"
+            alt="RS Schooll logo"></a>
+      </div>
+    </footer>
 
   </div>
 </body>
