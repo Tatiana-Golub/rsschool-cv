@@ -1,11 +1,236 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
+  <title>Frontend-разработчик Татьяна Голуб</title>
 </head>
+
 <body>
+  <div class="container">
+
+    <header class="header">
+      <div class="main__info">
+        <h1 class="name">Татьяна Голуб</h1>
+        <h2 class="role">Frontend-разработчик</h2>
+        <p class="location">Калининград, Россия</p>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#about">О себе</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#code">Пример кода</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#experience">Опыт работы</a></li>
+            <li><a href="#education">Образование</a></li>
+            <li><a href="#cources">Курсы</a></li>
+            <li><a href="#languages">Языки</a></li>
+          </ul>
+        </nav>
+
+        <div class="contacts">
+          <h2 class="contacts__title">Контакты</h2>
+
+          <ul class="contacts__list">
+            <li>
+              <span class="contacts__label">Телефон/WhatsApp:</span>
+              <a href="tel:+79841423405">+7 984 142 34 05</a>
+            </li>
+
+            <li>
+              <span class="contacts__label">Telegram:</span>
+              <a href="https://t.me/TatianaGolub11">
+                @TatianaGolub11
+              </a>
+            </li>
+
+            <li>
+              <span class="contacts__label">Email:</span>
+              <a href="mailto:tatiana.k1989@gmail.com">
+                tatiana.k1989@gmail.com
+              </a>
+            </li>
+
+            <li>
+              <span class="contacts__label">GitHub:</span>
+              <a href="https://github.com/Tatiana-Golub" target="_blank">
+                Tatiana-Golub
+              </a>
+            </li>
+
+            <li>
+              <span class="contacts__label">Discord:</span>
+              <span>Tatiana-Golub</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div><img class="photo" src="./assets/cv-photo.jpg" alt="Фото Голуб Татьяны"></div>
+    </header>
+
+    <main>
+
+      <section class="section" id="about">
+        <h2 class="section__title">О себе</h2>
+        <p>
+          Frontend-разработчик с практическим опытом разработки SPA-приложений на React и TypeScript. Разрабатываю
+          современные пользовательские интерфейсы, интегрирую REST API, проектирую компонентную архитектуру и уделяю
+          большое внимание качеству кода, производительности и пользовательскому опыту.
+          Окончила программу JavaScript/Frontend и React в Rolling Scopes School (EPAM), где реализовала несколько
+          полноценных проектов с использованием современных инструментов frontend-разработки. До перехода в IT более 10
+          лет работала письменным переводчиком английского языка. Умею быстро разбираться в сложной информации и
+          эффективно работать с англоязычной технической документацией.
+        </p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section__title">Навыки</h2>
+        <ul class="skills__list">
+          <li><strong>Языки:</strong> JavaScript (ES6+), TypeScript, HTML5, CSS3</li>
+          <li><strong>Frontend:</strong> React, Next.js, CSS Modules, TailwindCSS</li>
+          <li><strong>State Management:</strong> Redux Toolkit, Context API</li>
+          <li><strong>API:</strong> REST API, Axios, Fetch</li>
+          <li><strong>Forms:</strong> React Hook Form, Yup</li>
+          <li><strong>Testing:</strong> Vitest, React Testing Library</li>
+          <li><strong>Backend:</strong> Node.js, Express.js, Supabase, PostgreSQL, MongoDB</li>
+          <li><strong>Инструменты:</strong> Git, GitHub, Vite, Webpack, ESLint, Prettier, npm</li>
+          <li><strong>Дополнительно:</strong> Figma, Responsive Design, Cross-browser Layout</li>
+          <li><strong>AI-инструменты:</strong> ChatGPT, Claude</li>
+        </ul>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section__title">Пример кода</h2>
+        <p>Задача на разность массивов:</p>
+        <pre><code>function difference(arr1, arr2) {
+  const set2 = new Set(arr2);
+  return arr1.filter(x =&gt; !set2.has(x));
+}</code></pre>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section__title">Проекты</h2>
+
+        <article>
+          <h3>OpenAPI Splitter</h3>
+          <p>Веб-приложение для работы с OpenAPI YAML-файлами.</p>
+          <p>
+            <strong>Технологии:</strong>
+            React, TypeScript, Redux Toolkit, Vite,
+            js-yaml, CSS Modules.
+          </p>
+          <a href="https://github.com/Tatiana-Golub/openapi-splitter" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+
+        <article>
+          <h3>Christmas Shop</h3>
+          <p>Интернет-магазин новогодних товаров.</p>
+          <p>
+            <strong>Технологии:</strong>
+            HTML5, CSS3, JavaScript, адаптивная вёрстка.
+          </p>
+          <a href="https://github.com/Tatiana-Golub/christmas-shop" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+      </section>
+
+      <section class="section" id="experience">
+        <h2 class="section__title">Опыт работы</h2>
+
+        <article>
+          <h3>Frontend разработчик — Pet-проекты</h3>
+          <p>2024 — настоящее время</p>
+          <p>
+            Разработка учебных и pet-проектов для практического применения современных технологий
+            frontend-разработки.
+          </p>
+          <ul class="tasks__list">
+            <li>разработка SPA-приложений на React</li>
+            <li>создание переиспользуемых компонентов</li>
+            <li>интеграция REST API</li>
+            <li>маршрутизация</li>
+            <li>управление состоянием</li>
+            <li>работа с формами</li>
+            <li>адаптивная вёрстка</li>
+            <li>написание unit-тестов</li>
+            <li>работа с Git и GitHub</li>
+            <li>документирование проектов и подготовка README</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Письменный переводчик английского языка</h3>
+          <p>2014 — 2025</p>
+          <p>Письменный перевод технической, юридической, медицинской и деловой документации.</p>
+        </article>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section__title">Образование</h2>
+
+        <article>
+          <h3>Балтийский федеральный университет им. И. Канта</h3>
+          <p>2019 — 2021</p>
+          <p>Магистратура по направлению «Перевод для международного бизнеса и дипломатии»</p>
+        </article>
+
+        <article>
+          <h3>Благовещенский государственный педагогический университет</h3>
+          <p>2007 — 2012</p>
+          <p>
+            Специальность «Менеджмент организации» с дополнительной квалификацией «Переводчик
+            в сфере профессиональной коммуникации (английский язык)»
+          </p>
+        </article>
+      </section>
+
+      <section class="section" id="cources">
+        <h2 class="section__title">Курсы</h2>
+        <article>
+          <h3>Rolling Scopes School (EPAM)</h3>
+          <ul>
+            <li>JavaScript/Front-end — 2024Q4</li>
+            <li>React — 2025Q3</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Udemy</h3>
+          <p>The Complete 2024 Web Development Bootcamp</p>
+        </article>
+      </section>
+
+
+      <section id="languages">
+        <h2 class="section__title">Языки</h2>
+        <ul>
+          <li><strong>Английский:</strong> C1 (продвинутый)</li>
+          <li><strong>Русский:</strong> родной</li>
+          <li><strong>Корейский:</strong> A1 (базовый уровень)</li>
+        </ul>
+      </section>
+
+    </main>
+
+
+    <footer class="footer">
+      <div>
+        <a href="https://github.com/Tatiana-Golub" target="_blank" rel="noopener"><img class="github__icon"
+            src="./assets/github-icon.svg" alt="Github icon"></a>
+      </div>
+      <div>© 2026</div>
+      <div>
+        <a href="https://rs.school/" target="_blank" rel="noopener"><img class="rss__icon" src="./assets/rss-logo.svg"
+            alt="RS Schooll logo"></a>
+      </div>
+    </footer>
+
+  </div>
 </body>
+
 </html>

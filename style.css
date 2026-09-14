@@ -8,6 +8,56 @@ html {
 
 body {
   margin: 0;
+  font-family: "JetBrains Mono", sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  background-color: #a1e0f0;
+  background-image: url(./assets/light-wool.png);
+}
+
+.container {
+  margin: 2rem auto;
+  padding-inline: 5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.nav__list {
+
+  list-style-type: none;
+}
+
+.contacts__title,
+.section__title {
+  color: #040a7a;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.github__icon,
+.rss__icon {
+  width: 3vw;
+  height: 3vw;
+}
+
+@media (min-width: 1285px) {
+  .nav__list {
+  display: flex;
+  gap: 10px;
+  }
 }
